@@ -7,3 +7,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+@layer components {
+    .section-active {
+      @apply relative after:w-full after:absolute after:top-full after:bg-transparent after:h-1 after:hover:bg-primary after:left-0 after:transition hover:text-primary cursor-pointer transition font-medium;
+    }
+  }
