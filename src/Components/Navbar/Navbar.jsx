@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import logo from "../../assets/logo.png";
 import { HiBars3 } from "react-icons/hi2";
 import { GrClose } from "react-icons/gr";
-import { BsSunFill } from "react-icons/bs";
+import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
   const navItems = [
     { id: 1, text: "Home" },
     { id: 2, text: "About" },
@@ -55,10 +56,19 @@ const Navbar = () => {
           </ul>
           <ul>
             <li>
-              <BsSunFill
-                size={30}
-                className="cursor-pointer hover:text-orange-300 transition"
-              />
+              {isDark ? (
+                <BsMoonFill
+                  size={25}
+                  className="cursor-pointer hover:text-gray-900 transition"
+                  onClick={() => setIsDark(false)}
+                />
+              ) : (
+                <BsSunFill
+                  size={30}
+                  className="cursor-pointer hover:text-orange-300 transition"
+                  onClick={() => setIsDark(true)}
+                />
+              )}
             </li>
           </ul>
         </div>
