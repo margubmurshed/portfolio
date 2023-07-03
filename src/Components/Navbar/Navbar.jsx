@@ -34,7 +34,7 @@ const Navbar = () => {
             />
           )}
           <ul
-            className={`gap-7 absolute top-full text-center space-y-3 p-5 bg-white w-full border lg:flex lg:w-auto lg:bg-transparent lg:static lg:border-0 lg:text-left lg:space-y-0 lg:p-0 select-none transition-all duration-300 ${
+            className={`gap-7 absolute top-full text-center space-y-3 p-5 bg-white w-full border lg:flex lg:w-auto lg:bg-transparent lg:static lg:border-0 lg:text-left lg:space-y-0 lg:p-0 select-none transition-all duration-300 z-[100] ${
               isOpen ? "block left-0" : "-left-[1024px]"
             }`}
           >
