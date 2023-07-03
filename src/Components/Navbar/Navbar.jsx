@@ -4,6 +4,7 @@ import { HiBars3 } from "react-icons/hi2";
 import { GrClose } from "react-icons/gr";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import { Link } from "react-scroll";
+import { Slide } from "react-awesome-reveal";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
     { id: 3, text: "Contact" },
   ];
   return (
-    <nav className="bg-white border-b sticky top-0">
+    <nav className="bg-white border-b sticky top-0 z-10">
       <div className="container mx-auto p-5 flex justify-between items-center gap-3">
         <img src={logo} alt="logo" className="w-32 select-none" />
         <div className="flex items-center gap-5">
@@ -39,8 +40,9 @@ const Navbar = () => {
               isOpen ? "block left-0" : "-left-[1024px]"
             }`}
           >
-            {navItems.map((item) => (
-              <li key={item.id}>
+            {navItems.map((item, index) => (
+              <Slide direction="down" duration={200*(index+1)} triggerOnce>
+                <li key={item.id}>
                 <Link
                   to={item.text.toLowerCase()}
                   spy={true}
@@ -52,6 +54,7 @@ const Navbar = () => {
                   {item.text}
                 </Link>
               </li>
+              </Slide>
             ))}
           </ul>
           <ul>
