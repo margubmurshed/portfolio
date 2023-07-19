@@ -94,25 +94,25 @@ const Contact = () => {
             <MdLocationPin size={30} /> <span>Dhaka, Bangladesh</span>
           </p>
           <div className="flex justify-center items-center gap-3 mt-5">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/margubmurshed/" target="_blank" rel="noopener noreferrer">
               <BiLogoLinkedin
                 size={40}
                 className="p-2 bg-white text-gray-800 rounded-full shadow-md"
               />
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/margubmurshed" target="_blank" rel="noopener noreferrer">
               <BiLogoGithub
                 size={40}
                 className="p-2 bg-white text-gray-800 rounded-full shadow-md"
               />
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="facebook.com/margub32" target="_blank" rel="noopener noreferrer">
               <BiLogoFacebook
                 size={40}
                 className="p-2 bg-white text-gray-800 rounded-full shadow-md"
               />
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://m.me/margub32/" target="_blank" rel="noopener noreferrer">
               <BiLogoMessenger
                 size={40}
                 className="p-2 bg-white text-gray-800 rounded-full shadow-md"
