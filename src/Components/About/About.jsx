@@ -11,14 +11,7 @@ const About = () => {
         <div className="space-y-2">
           <h2 className="font-source-pro text-3xl font-semibold uppercase text-slate-900 mt-5 text-center lg:mt-0 lg:text-left">About Me</h2>
           <p className="text-gray-700 font-light">
-            Hi, I'm Margub Murshed, a full stack web developer. Web design &
-            development is my passion. I love to explore new tech things. I'm
-            very passionate and dedicated to my work. I have expertise in
-            Front-End and Back-End Web development too. I can design a website
-            fully responsive & dynamic as per requirment. I enjoy every step of
-            the design & development process from discussion and collaboration.
-            I have experience in React JS, Next JS, Node JS, MongoDB, Experess,
-            Tailwind CSS, Material UI, Bootstrap etc.
+          Hello, I am Margub Murshed. I am a MERN Stack Developer. I am currently studying in 11th Grade at Government Laboratory College, Dhaka. I am a confident, enthusiastic, and passionate developer eager to learn and grow every day in the field of Web Development. I excel in JavaScript, React, MongoDB, Express, and Node. In 2023, I completed 6 months long training in Web Development from Programming Hero which is a leading e-learning platform in Bangladesh. I have always been fascinated by transforming creative ideas into visually appealing functional and user-friendly websites. I love traveling and exploring. As a developer, I keep exploring different technologies and try to keep myself updated with the latest industry trends.
           </p>
         </div>
         </Slide>
