@@ -12,7 +12,7 @@ const Hero = () => {
             <p className=' font-extralight text-xl'>I love to make things clean And attractive. Love to learn everyday</p>
             </Slide>
             <Slide triggerOnce direction='left' duration={800}>
-            <a href='resume.pdf' download className='inline-block border-primary border-2 px-5 py-3 rounded-md bg-slate-900 bg-opacity-90 text-white font-semibold font-source-pro uppercase'>Download Resume</a>
+            <a href='https://drive.google.com/file/d/1KwzKuAEvSveWLqHC84TB-2lKR-zh1fAv/view?usp=sharing' className='inline-block border-primary border-2 px-5 py-3 rounded-md bg-slate-900 bg-opacity-90 text-white font-semibold font-source-pro uppercase'>Download Resume</a>
             </Slide>
             <Slide triggerOnce direction='left' duration={1000}>
             <img src={illustration} alt="hero-illustration" className='w-full max-w-lg mx-auto'/>
